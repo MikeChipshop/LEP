@@ -1,11 +1,11 @@
 jQuery(document).ready(function( $ ) {
 	var feed = new Instafeed({
         get: 'user',
-		userId: '3686373352',
-		accessToken: '3686373352.845a7b4.8cfb7ad7d9774191870623a8553669e3',
-		client_id: '845a7b4b2d8941fd8b98cc6feb3ab3bd',
+		userId: '4082314604',
+		accessToken: '4082314604.1677ed0.05fa56beec6a4fc6953f617effc1b010',
+		client_id: '10b65a7b8c3c4d3e883e142822c59d1d',
 		limit: 8,
-		template: '<a href="{{link}}"><img src="{{image}}" alt="{{caption}}"/></a>',
+		template: '<li><a href="{{link}}"><img src="{{image}}" alt="{{caption}}"/></a></li>',
 		resolution: 'thumbnail',
 	});
 	feed.run();
