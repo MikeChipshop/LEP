@@ -20,14 +20,14 @@
 		<?php endif; ?>
 	</section>
 
-	<section class="lep_fp_welcone lep_copy-wrap">
+	<section class="lep_fp_welcome lep_copy-wrap">
 		<h1 class="lep_copy-wrap-title">Welcome Title</h1>
 		<div class="lep_fp-welcome-content">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a cursus est. Sed a diam in est efficitur bibendum. Cras sed vestibulum nisi. Aenean aliquet lectus velit, ut vestibulum elit pretium ac. Suspendisse sed odio at nisi volutpat gravida. Donec nisi tellus, ullamcorper sed venenatis et, elementum sed purus
 		</div>
 	</section>
 
-	<section class="lep_fp-about-banner">
+	<section class="lep_fp-pos-banner">
 		<?php
 			$attachment_id_1 = get_field('one_banner_image');
 			$size_1 = "banner";
