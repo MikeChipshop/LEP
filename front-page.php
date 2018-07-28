@@ -29,12 +29,26 @@
 
 	<section class="lep_fp-about-banner">
 		<?php
-			$attachment_id = get_field('about_banner_image','option');
-			$size = "banner";
-			$image = wp_get_attachment_image_src( $attachment_id, $size );
+			$attachment_id_1 = get_field('one_banner_image','option');
+			$size_1 = "banner";
+			$image_1 = wp_get_attachment_image_src( $attachment_id_1, $size_1 );
+
+			$attachment_id_2 = get_field('two_banner_image','option');
+			$size_2 = "banner";
+			$image_2 = wp_get_attachment_image_src( $attachment_id_2, $size_2 );
 		?>
-		<img src="<?php echo $image[0] ?>" alt="Go to <?php the_field('about_banner_text','option'); ?>">
-		<h1><a href="<?php the_field('about_banner_link','option'); ?>" class="lep_border-button"><span><?php the_field('about_banner_text','option'); ?></span></a></h1>
+		<nav>
+			<ul>
+				<li>
+					<img src="<?php echo $image_1[0] ?>" alt="Go to <?php the_field('one_banner_text','option'); ?>">
+					<h1><a href="<?php the_field('one_banner_link','option'); ?>" class="lep_border-button"><span><?php the_field('one_banner_text','option'); ?></span></a></h1>
+				</li>
+				<li>
+					<img src="<?php echo $image_2[0] ?>" alt="Go to <?php the_field('two_banner_text','option'); ?>">
+					<h1><a href="<?php the_field('two_banner_link','option'); ?>" class="lep_border-button"><span><?php the_field('two_banner_text','option'); ?></span></a></h1>
+				</li>
+			</ul>
+		</nav>
 	</section>
 
 	<section class="lep_fp-insta">
