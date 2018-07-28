@@ -10,8 +10,10 @@
 							$attachment_id = get_sub_field('genre_display_image');
 							$size = "banner";
 							$image = wp_get_attachment_image_src( $attachment_id, $size );
+
+							$term = get_sub_field('genre_display_link');
 						?>
-						<a href="<?php the_sub_field(''); ?>" style="background:url(<?php echo $image[0] ?>) no-repeat center center;background-size:cover">
+						<a href="<?php echo get_term_link( $term ); ?>" style="background:url(<?php echo $image[0] ?>) no-repeat center center;background-size:cover">
 							<h1><?php the_sub_field('genre_display_label'); ?></h1>
 						</a>
 					</li>
