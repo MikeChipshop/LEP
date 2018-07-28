@@ -97,7 +97,7 @@ body {
     justify-content: center;
 
 }
-.lep_global-nav ul a:link, 
+.lep_global-nav ul a:link,
 .lep_global-nav ul a:visited,
 .lep_global-nav ul a:active {
 	color:#fff;
@@ -212,6 +212,28 @@ body {
 
 .lep_fp_welcone {
 	padding:80px;
+}
+
+/* ------------------------------------------------
+ Instagram Feed
+------------------------------------------------ */
+#instafeed {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+#instafeed a {
+	-ms-flex-preferred-size: 12%;
+	flex-basis: 12%;
+	padding: 5px;
+}
+#instafeed img {
+	max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 /* ------------------------------------------------
