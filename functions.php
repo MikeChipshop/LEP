@@ -39,6 +39,7 @@ function twentyten_setup() {
 	if ( function_exists( 'add_image_size' ) ) add_theme_support( 'post-thumbnails' );
 	if ( function_exists( 'add_image_size' ) ) {
 		add_image_size( 'banners', 2000, 9999);
+		add_image_size( 'archive-squares', 400, 400);
 	}
 
 	// Add default posts and comments RSS feed links to head
