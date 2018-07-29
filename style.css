@@ -264,11 +264,11 @@ body {
 	-ms-flex-align: center;
     align-items: center;
 	opacity: 0;
-	transition: opacity .3s;
+	transition: all .3s;
 }
-#instafeed a:hover .overlay span {
+#instafeed a .overlay span {
 	border: 1px solid #fff;
-    padding: 5px;
+	padding: 5px;
 }
 #instafeed a:hover .overlay {
 	opacity:1;
