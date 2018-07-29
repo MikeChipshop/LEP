@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <main>
 	<section class="lep_cat-menu">
 		<?php if( have_rows('genre_display') ): ?>
@@ -57,5 +56,4 @@
 		<div id="instafeed"></div>
 	</section>
 </main>
-
 <?php get_footer(); ?>
