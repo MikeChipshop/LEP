@@ -281,6 +281,10 @@ body {
     margin: 0 auto;
     padding: 0px 10px;
 }
+.lep_single-blog-wrap h2.lep_single-blog-title {
+	font-size:30px;
+	padding-bottom:20px;
+}
 
 /* RTE */
 
@@ -290,6 +294,37 @@ body {
 .rte p {
 	padding-bottom:20px;
 }
+.rte p:last-child {
+	padding-bottom:0px;
+}
+.rte a:link,
+.rte a:visited,
+.rte a:active {
+	color:#b7930c;
+	text-decoration:none;
+}
+.rte a:hover {
+	text-decoration:underline;
+}
+.rte blockquote {
+	border-bottom: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+    margin: 20px 20px 40px 20px;
+    color: #000;
+}
+.rte blockquote:before {
+	content: "\"";
+    font-size: 80px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
 /* ------------------------------------------------
  About Banner
 ------------------------------------------------ */
