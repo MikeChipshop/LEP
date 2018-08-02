@@ -12,6 +12,8 @@
 
     <?php endwhile; ?>
 
+<?php else: ?>
+
     <div class="lep_single-blog-no-content">
         <h2>Oops</h2>
         <h3>No content here, return to the home page and try again</h3>
