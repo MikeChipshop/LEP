@@ -86,7 +86,7 @@ function miniman_load_scripts() {
 	wp_register_script( 'insta', get_template_directory_uri() . '/js/instafeed.js', array(),'null',true  );
 	wp_register_script( 'site-common',  get_template_directory_uri() . '/js/site-common.js', array(),'',true  );
 	wp_register_style( 'main-css', get_template_directory_uri() . '/style.css','','', 'screen' );
-	wp_register_style( 'fonts', 'https://fonts.googleapis.com/css?family=Open+Sans|Palanquin:300','','', 'screen' );
+	wp_register_style( 'fonts', 'https://fonts.googleapis.com/css?family=Dosis','','', 'screen' );
 
 	wp_enqueue_script('jquery');
 	wp_enqueue_script( 'insta' );
