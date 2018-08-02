@@ -131,7 +131,8 @@ body {
 	padding:10px 20px;
 }
 .lep_global-nav ul a:hover {
-	text-decoration:underline;
+	text-decoration:none;
+	color:#b7930c;
 }
 
 /* ------------------------------------------------
