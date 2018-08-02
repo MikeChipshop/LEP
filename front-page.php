@@ -21,12 +21,16 @@
 		<?php endif; ?>
 	</section>
 
-	<section class="lep_fp_welcome lep_copy-wrap">
-		<h1 class="lep_copy-wrap-title">Welcome Title</h1>
-		<div class="lep_fp-welcome-content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a cursus est. Sed a diam in est efficitur bibendum. Cras sed vestibulum nisi. Aenean aliquet lectus velit, ut vestibulum elit pretium ac. Suspendisse sed odio at nisi volutpat gravida. Donec nisi tellus, ullamcorper sed venenatis et, elementum sed purus
-		</div>
-	</section>
+	<?php if ( have_posts() ) : ?>
+    	<?php while ( have_posts() ) : the_post();?>
+			<section class="lep_fp_welcome lep_copy-wrap">
+				<h1 class="lep_copy-wrap-title"><?php the_title(); ?></h1>
+				<div class="lep_fp-welcome-content">
+					<?php the_content(); ?>
+				</div>
+			</section>
+		<?php endwhile; ?>
+	<?php endif; ?>
 
 	<section class="lep_fp-pos-banner">
 		<?php
