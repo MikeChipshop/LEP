@@ -277,7 +277,6 @@ body {
  About Banner
 ------------------------------------------------ */
 .lep_fp-pos-banner {
-	background-color:#b4907a;
 	color:#fff;
 	text-align:center;
 	position:relative;
@@ -289,6 +288,14 @@ body {
 }
 .lep_fp-pos-banner li {
 	position:relative;
+	-ms-flex-preferred-size: 50%;
+	flex-basis: 50%;
+}
+.lep_fp-pos-banner li:nth-of-type(1) {
+	border-right: 5px solid transparent;
+}
+.lep_fp-pos-banner li:nth-of-type(2) {
+	border-left: 5px solid transparent;
 }
 .lep_fp-pos-banner h1 {
 	position: absolute;
