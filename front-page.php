@@ -12,9 +12,9 @@
 
 							$term = get_sub_field('genre_display_link');
 						?>
-						<a href="<?php echo get_term_link( $term ); ?>" style="background:url(<?php echo $image[0] ?>) no-repeat center center;background-size:cover">
-							<h1><?php the_sub_field('genre_display_label'); ?></h1>
-						</a>
+						<div style="background:url(<?php echo $image[0] ?>) no-repeat center center;background-size:cover">
+							<h2><a href="<?php echo get_term_link( $term ); ?>" class="lep_border-button"><span><?php the_sub_field('genre_display_label'); ?></span></a></h2>
+						</div>
 					</li>
 				<?php endwhile; ?>
 			</ul>
