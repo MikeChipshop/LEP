@@ -150,22 +150,21 @@ body {
     text-align: center;
 }
 .lep_cat-menu li {
-	border-top:10px solid #dedddc;
-	border-right:5px solid #dedddc;
-	border-bottom:10px solid #dedddc;
-	border-left:5px solid #dedddc;
+	border-top:10px solid transparent;
+	border-right:5px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left:5px solid transparent;
 	-webkit-box-flex:1;
 	-webkit-flex:1;
 	-ms-flex:1;
 	flex:1;
-	background-color:#b4907a;
 	height:300px;
 }
 .lep_cat-menu li:first-child {
-	border-left:10px solid #dedddc;
+	border-left:10px solid transparent;
 }
 .lep_cat-menu li:last-child {
-	border-right:10px solid #dedddc;
+	border-right:10px solid transparent;
 }
 .lep_cat-menu h1 {
 	background: rgba(255,255,255,.7);
