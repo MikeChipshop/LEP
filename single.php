@@ -6,8 +6,10 @@
         <article class="lep_single-blog-wrap">
             <h2 class="lep_single-blog-title"><?php the_title(); ?></h2>
             <div class="lep_single-blog-meta">
-                <div class="lep_single-blog-date"><?php the_time(); ?></div>
-                <div class="lep_single-blog-cat"><a href="#">Photography</a>, <a href="#">Services</a>, <a href="#">Thoughts</a></div>
+                <div class="lep_single-blog-date">
+                    <?php printf( _x( '%s ago', '%s = human-readable time difference', 'your-text-domain' ), human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ) ); ?>
+                </div>
+                <div class="lep_single-blog-cat"><?php the_category(' '); ?></div>
             </div>
             <div class="rte">
                 <?php the_content(); ?>
