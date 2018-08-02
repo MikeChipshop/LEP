@@ -299,6 +299,7 @@ body {
 }
 .lep_fp-pos-banner img {
 	max-width:100%;
+	display:block;
 }
 .lep_fp_welcome {
 	padding:80px;
