@@ -98,6 +98,13 @@ body {
     background: rgba(255,255,255,.8);
     padding: 8px 22px;
 }
+
+/* Header */
+.lep_global-logo h1 {
+	font-family: 'frente_h1regular', sans-serif;
+	font-size: 50px;
+}
+
 /* ------------------------------------------------
  Global Navigation
 ------------------------------------------------ */
